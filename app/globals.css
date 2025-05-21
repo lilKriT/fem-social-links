@@ -14,5 +14,7 @@ body {
 }
 
 .social--link {
-  @apply bg-gray-700 w-full text-center block text-xl font-bold p-2 rounded-xl;
+  @apply bg-gray-700 w-full text-center block text-lg font-semibold p-2 rounded-xl;
+  @apply active:scale-90 hover:bg-green hover:text-gray-800;
+  @apply duration-150 ease-in-out;
 }

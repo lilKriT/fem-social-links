@@ -13,13 +13,13 @@ export default function Home() {
           className="rounded-full w-28"
         />
         <div className="flex flex-col gap-2 text-center">
-          <h1 className="text-3xl">Jessica Randall</h1>
-          <h2 className="text-green">London, United Kingdom</h2>
+          <h1 className="text-3xl font-semibold">Jessica Randall</h1>
+          <h2 className="text-green font-semibold">London, United Kingdom</h2>
         </div>
 
-        <p>"Front-end developer and avid reader."</p>
+        <p className="text-gray-300">"Front-end developer and avid reader."</p>
 
-        <ul className="w-full flex flex-col gap-4">
+        <ul className="w-full flex flex-col gap-4 mt-2">
           <li>
             <Link rel="stylesheet" href="#" className="social--link">
               GitHub
